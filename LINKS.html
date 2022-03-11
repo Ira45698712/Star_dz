@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:hover{
+            color:red;
+        }
+        .sposob1 a::after{
+            content: '|';
+            color: red;
+            padding: 5px;
+            font-weight: 900;
+        }
+        
+        div ul{
+           padding: 0;
+        }
+         ul li{
+             float: left;
+            display: inline-block;
+         }
+        div div{
+            border: 0.5px solid red;
+            height: 15px;
+            float: left;
+            margin-left: 7px;
+            margin-right: 7px;
+        } 
+        .sposob3{
+            
+            
+        } 
+        td:nth-child(1n+2) {
+            color: red;
+           
+        }  
+        
+        
+    </style>
+</head>
+<body>
+    <div class="sposob1">
+        <a href="https://www.google.ru/">Первая ссылка</a>
+        <a href="https://www.google.ru/">Вторая ссылка</a>
+        <a href="https://www.google.ru/">Третья ссылка</a>
+        <a href="https://www.google.ru/">Четвертая ссылка</a>
+        <a href="https://www.google.ru/">Пятая ссылка</a>
+    </div>
+
+    <div class = "sposob2">
+        <ul>
+            <li><a href="https://www.google.ru/">Первая ссылка</a></li>
+            <div></div>
+            <li><a href="https://www.google.ru/">Вторая ссылка</a></li>
+            <div></div>
+            <li><a href="https://www.google.ru/">Третья ссылка</a></li>
+            <div></div>
+            <li><a href="https://www.google.ru/">Четвертая ссылка</a></li>
+            <div></div>
+            <li><a href="https://www.google.ru/">Пятая ссылка</a></li>
+            <div></div>
+        </ul>
+    </div>
+<p>  .</p>
+
+    <div class="sposob3">
+        <table>
+            <tr>
+                <td><a href="https://www.google.ru/">Первая ссылка</a></td>
+                <td>|</td>
+                <td><td><a href="https://www.google.ru/">Вторая ссылка</a></td></td>
+                <td>|</td>
+                <td><td><a href="https://www.google.ru/">Третья ссылка</a></td></td>
+                <td>|</td>
+                <td><a href="https://www.google.ru/">Четвертая ссылка</a></td>
+                <td>|</td>
+                <td><a href="https://www.google.ru/">Пятая ссылка</a></td>
+                <td>|</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+
+<!-- sposob1 ссылка расположена с помощью тега <a> , а разделитель с помощью псевдоэлемента after
+     sposob2 ссылка расположена в списке, затем задан inline-block float:left and padding  , а разделитель - в виде границ border anf float
+     sposob3 ссылка и разделитель  с помощью таблицы-->

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .header{
+            text-align: center;
+            background-color: rgb(169, 214, 231);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 23px;
+            text-transform: uppercase;
+          
+        }
+        #aside{
+           margin: 0;
+            width: 15%;
+            background-color: rgb(132, 181, 194);
+        }
+        h2{
+            text-align: center;
+        }
+      #foto{
+          width: 400px;
+          height: 250px;
+          padding-left: 15px;
+          margin: 7px 10px 7px 7px;    
+      }
+      .inf{
+          font-size: 19px;
+      }
+      [href ^= "https:"]{
+          font-size: 17px;
+          
+      }
+
+      .footer{
+            text-align: center;
+            background-color: rgb(169, 214, 231);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 23px;
+            text-transform: uppercase;
+           
+        }
+    </style>
+</head>
+<body>
+    <div style="height: 100%; width: 100%;">
+    <table style="height: 100%; width: 100%;">
+        <tr>
+            <td colspan="3"; class="header">Привет участникам соревнований!</td>
+        </tr>
+
+        <tr>
+            <td id = "aside">
+                <h3 style="padding-left: 25px;">Виды спорта:</h3>
+                <ul>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B8%D0%B0%D1%82%D0%BB%D0%BE%D0%BD#">Биатлон</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB#">Футбол</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D0%B5_%D0%BA%D0%B0%D1%82%D0%B0%D0%BD%D0%B8%D0%B5">Фигурное катание</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D1%85%D1%80%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">Синхронное плавание</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%85%D0%BC%D0%B0%D1%82%D1%8B">Шахматы</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D1%88%D0%BA%D0%B8#">Шашки</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%81%D0%BA%D0%B5%D1%82%D0%B1%D0%BE%D0%BB#">Баскетбол</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D1%83">Прыжки в высоту</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5#:~:text=%D0%9F%D0%BB%D0%B0%CC%81%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B2%D0%B8%D0%B4%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F,%D0%B7%D0%B0%20%D0%BD%D0%B0%D0%B8%D0%BC%D0%B5%D0%BD%D1%8C%D1%88%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%20%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.">Плавание</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D0%B1%D0%B8">Регби</a></li>
+                    <li><a href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8B%D0%B6%D0%BE%D0%BA_%D0%B2_%D0%B4%D0%BB%D0%B8%D0%BD%D1%83">Прыжки в длину</a></li>
+                </ul>
+            </td>
+            <td style="background-color: rgb(211, 228, 230);">
+                    <h2>Фигурное катание</h2>
+                    <div>
+                        <img id="foto" style="float: left;"  src="https://ss.sport-express.ru/userfiles/materials/175/1759595/volga.jpg"><p class = "inf">Фигу́рное ката́ние — конькобежный вид спорта, относится к сложно координационным видам спорта. Основная идея заключается в передвижении спортсмена или пары спортсменов на коньках по льду с переменами направления скольжения и выполнении дополнительных элементов (вращений, прыжков, комбинаций шагов, поддержек и др.) под музыку.Фигурист в одиночном катании должен продемонстрировать владение всеми группами элементов — шагами, спиралями, вращениями, прыжками. Чем выше качество и сложность исполняемых элементов, тем выше уровень спортсмена. Важными критериями также являются связь движений спортсмена с музыкой, пластичность, эстетичность и артистизм.
+
+                           <br> Соревнования в одиночном катании проходят в 2 этапа: первый этап — короткая программа, второй этап — произвольная программа. <br>В фигурном катании можно выделить 4 основных, базовых элемента: шаги, спирали, вращения и прыжки. Также существует ряд специфических элементов, исполняемых в одном виде фигурного катания, например поддержки, подкрутки, выбросы, тодесы в парном катании.<br>А́нна Станисла́вовна Щербако́ва (род. 28 марта 2004, Москва, Россия) — российская фигуристка, выступающая в одиночном катании. Олимпийская чемпионка 2022 года в одиночном катании, чемпионка мира (2021). Победительница командного чемпионата мира по фигурному катанию (2021). Двукратный серебряный призёр чемпионата Европы (2020, 2022). Серебряный призёр финала Гран-при (2019). Трёхкратная чемпионка России (2019, 2020, 2021) и бронзовый призёр чемпионата России (2022). Серебряный призёр чемпионата мира среди юниоров (2019).</p>
+                        </div>   
+                
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3"; class="header">Главное не победа, а участие!</td>
+        </tr>
+    
+    </table>
+</div>
+</body>
+</html>
